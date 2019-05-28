@@ -22,14 +22,6 @@ def using_size(array)
 
 end
 
-describe "#using_sort" do 
-  it "takes in an argument of an array and returns the sorted array." do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(using_sort(array).last).to eq("wow")
-    expect(using_sort(array).first).to eq("I")
-  end
-end
-
 describe "#using_reverse" do 
   it "takes in argument of an array and returns that same array with the contents reversed." do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
